@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Messenger Chat</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <!-- Messenger Plugin root -->
+  <div id="fb-root"></div>
+
+  <!-- Messenger Plugin script -->
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js"></script>
+
+  <!-- Messenger Chat Plugin -->
+  <div class="fb-customerchat"
+    attribution="setup_tool"
+    page_id="101683372971397"
+    theme_color="#0084ff"
+    logged_in_greeting="สวัสดีค่ะ โรงเรียนบ้านตาดราษฎร์สมบูรณ์ ยินดีต้อนรับค่ะ"
+    logged_out_greeting="ฝากข้อความไว้ได้นะคะ">
+  </div>
+</body>
+</html>
